@@ -1,0 +1,12 @@
+.npm/
+.git/
+terms.md
+dealers.md
+node_modules/
+package-lock.json
+yarn.lock
+database.json
+HepeinBotSession/
+BrashkieJadiBot/
+BackupSession/
+database/

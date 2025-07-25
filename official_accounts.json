@@ -1,0 +1,54 @@
+{
+    "info": {
+
+        "accounts": {
+            "youTube": "https://www.youtube.com/channel/UCKwgQ_LQgAlSmVrYHiHH_1Q",
+            "instagram": "https://www.instagram.com/moisesyaurivilcacenteno/",
+            "BrashkieBot-Hepein": "https://github.com/Brashkie/BrashkieBot-Hepein",
+            "Brashkie": "https://github.com/Brashkie",
+            "facebook": "https://www.facebook.com/moises.yaurivilca/",
+            "tiktok": "https://www.tiktok.com/@moises_yaurivilca",
+            "threads": "https://www.threads.net/@moisesyaurivilcacenteno",
+            "paypal": "https://paypal.me/BrashkieBot",
+            "github": "https://github.com/Brashkie",
+            "mail": "electronicatodo2006@gmail.com",
+            "all": "https://www.atom.bio"
+        },
+        
+        "channels": {
+            "channel1": "https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n",
+            "channel2": "https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n",
+            "channel3": "https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n",
+            "channel4": "https://discord.gg/mw95cFWz"
+        },
+
+        "groups": {
+            "group1": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW",
+            "group2": "https://chat.whatsapp.com/Dzl78SFcnbfCcj0XbbjLYl",
+            "group3": "https://chat.whatsapp.com/HOuFyPPAQ6E24CL87EpPCe",
+            "group4": "https://chat.whatsapp.com/D7rWtA4NPM2An3fP4axn0D",
+            "group5": "https://chat.whatsapp.com/JrPYbBETich6HFYvLYq9Pf",
+            "group6": "https://chat.whatsapp.com/JyPIlLE4gPg9XJkbUhBhHf"
+        },
+
+        "collaboration": {
+            "group1": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW",
+            "group2": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW",
+            "group3": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW",
+            "group4": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW"
+        },
+
+        "sponsors": {
+            "infinity": "https://dashboard.infinitywa.xyz/",
+            "cafirexos": "https://github.com/Brashkie",
+            "vortexus": "https://vortexuscloud.com",
+            "asif": "https://t.me/Asifhosting"
+        },
+
+        "others": {
+            "assistance_num": "https://wa.me/51918340705",
+            "yt_vid": "https://www.youtube.com/watch?v=uJWg6ubEEXU",
+            "group_support": "https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW"
+        }
+    }
+}
