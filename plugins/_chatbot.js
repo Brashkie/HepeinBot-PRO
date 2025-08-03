@@ -1,4 +1,3 @@
-
 import '../plugins/_content.js'
 //let handler = m => m 
 //handler.all = async function (m) {
@@ -23,28 +22,25 @@ let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* �
 🟢 \`\`\`Información del Host\`\`\`
 
 💻 *Página:*
-https://dash.skyultraplus.com
+Null
 
 *🟢 Dashboard:*
-https://dash.skyultraplus.com
+Null
 
 ⚙️ *Panel*
-https://panel.skyultraplus.com
+Null
 
 💥 *Comunidad de WhatsApp:*
-https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW
+https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW
 
 *🟣 Discord:*
-https://discord.gg/zvKgtc2RBc
+Null
 
 🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
+https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n
 
 🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/15167096032
-• wa.me/573147616444
-• https://www.facebook.com/elrebelde21
+• wa.me/51916360161
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
 
@@ -52,9 +48,9 @@ if (/^infohost$/i.test(m.text)) {
  await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363301598733462@newsletter', 
+newsletterJid: '120363418980254537@newsletter', 
 serverMessageId: '', 
-newsletterName: 'Sky-Ultra-Plus ☁️' }, 
+newsletterName: '𒁈 ꜱᴘᴀᴍ ʙᴏᴛ 𒁈' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
@@ -64,7 +60,7 @@ title: `🤖 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/sMeCo.jpg', 
-sourceUrl: accountsgb}}},
+sourceUrl: accountshb}}},
 { quoted: fkontak})
 } 
  
@@ -99,25 +95,25 @@ return conn.reply(m.chat,  `\`⚡¿Quieres un bot para tu grupo?\`
 > A través de nuestro PayPal o Mercado Pago.
 
 *❇️PayPal:*
-• https://www.paypal.com/paypalme/OficialGD
+• https://paypal.me/BrashkieBot
 
 *❇️Mercado pago:*
 
-*• Alias :* OficialGB
-*• CVU :* 0000003100059201491917
+*• Alias :* Oficial Hepein
+*• CVU :* Null
 
 \`⏩ Siguiente paso ⏩\`
 
 > Una vez realizado el pago, puedes enviar un comprobante de envío del dinero (captura de pantalla) para que pueda agregar el bot a tu grupo:
 
-• https://chat.whatsapp.com/FDRfhecUGrCEQswkg8FUYz
+• https://chat.whatsapp.com/JyPIlLE4gPg9XJkbUhBhHf
 • ${ig}
-• https://www.facebook.com/elrebelde21
+• https://www.facebook.com/moises.yaurivilca/
 
 \`⚡ ¿El bot estará activo 24/7?\`
 _*Sí, nuestro bot está alojado en un servidor de pago para mantenerlo activo 24/7 (por eso también solicitamos donaciones para mantenerlo en funcionamiento) 💞*_
 
-> *𝙂𝙧𝙖𝙘𝙞𝙖𝙨 𝙥𝙤𝙧 𝙨𝙪𝙨 𝙥𝙧𝙚𝙛𝙚𝙧𝙚𝙣𝙘𝙞𝙖𝙨 𝙚𝙣 ${gt} 🐈💞*`, fkontak, {contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Hola ${name} 👋`, body: wm, previewType: 0, thumbnail: BrasImg, sourceUrl: accountsgb }}})
+> *𝙂𝙧𝙖𝙘𝙞𝙖𝙨 𝙥𝙤𝙧 𝙨𝙪𝙨 𝙥𝙧𝙚𝙛𝙚𝙧𝙚𝙣𝙘𝙞𝙖𝙨 𝙚𝙣 ${gt} 🐈💞*`, fkontak, {contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Hola ${name} 👋`, body: wm, previewType: 0, thumbnail: BrasImg, sourceUrl: accountshb }}})
 }
 if (/^¿Qué es un Bot?|¿Qué es Bot?|Qué es Bot|qué es Bot|QUÉ ES UN BOT|¿QUÉ ES UN BOT?|¿qué es un Bot?|qué es un Bot|que es un Bot|Qué es un Bot?|Que es un Bot? $/i.test(m.text) ) {
 return conn.reply(m.chat, `\`✨ ¿𝐐𝐮𝐞́ 𝐞𝐬 𝐮𝐧 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩? ✨\`
@@ -243,3 +239,4 @@ return !0
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]
 }
+
