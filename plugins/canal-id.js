@@ -1,4 +1,4 @@
-//Creado por HamilyBot
+//Creado por HamilyBot https://github.com/Brashkie/HamilyBot
 
 let handler = async (m, { conn, text }) => {
     // Verifica si el mensaje vino desde un canal
