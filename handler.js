@@ -64,7 +64,14 @@ if (!('premium' in user)) user.premium = false
 if (!('muto' in user)) user.muto = false  
 if (!('registered' in user)) user.registered = false
 if (!('registroR' in user)) user.registroR = false
-if (!('registroC' in user)) user.registroC = false  
+if (!('registroC' in user)) user.registroC = false
+//if (!('birthday' in user)) user.birthday = false  //Birthday users
+/*if (!('birthday' in user)) user.birthday = {
+    allowed: false,
+    date: '',
+    timezone: '',
+    announce: true
+}*/
 if (!isNumber(user.IDregister)) user.IDregister = 0 
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
@@ -95,7 +102,7 @@ if (!isNumber(user.regTime)) user.regTime = -1
 if (!isNumber(user.semangka)) user.semangka = 0
 if (!isNumber(user.stroberi)) user.stroberi = 0
 }
-	              		    
+
 if (!isNumber(user.afk)) user.afk = -1
 //if (!('autolevelup' in user))  user.autolevelup = true
 if (!isNumber(user.reporte)) user.reporte = 0
@@ -973,7 +980,8 @@ global.db.data.chats[m.chat] = {}
 		
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false         
-if (!('welcome' in chat)) chat.welcome = true           
+if (!('welcome' in chat)) chat.welcome = true
+//if (!('birthdayAllowed' in chat)) chat.birthdayAllowed = true  // Controla si se celebran cumpleaños           
 if (!('detect' in chat)) chat.detect = false               
 if (!('sWelcome' in chat)) chat.sWelcome = ''          
 if (!('sBye' in chat)) chat.sBye = ''                    
@@ -1022,6 +1030,7 @@ fin: "23:59"
 global.db.data.chats[m.chat] = {
 isBanned: false,
 welcome: true,
+//birthdayAllowed: true, //birthday active
 detect: true,
 sWelcome: '',
 sBye: '',
@@ -1090,7 +1099,7 @@ antiPrivate: false,
 antiCall: true,
 antiSpam: true,
 modoia: false, 
-anticommand: false, 
+anticommand: true, 
 prefix: opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®&.\\-.@',
 jadibotmd: true,
 }} catch (e) {
@@ -1307,7 +1316,6 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-//this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
 this.sendMessage(m.chat, {text: `NO TIENE COINS`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: BrasImg, sourceUrl: accountshb }}}, { quoted: m })         
 continue     
 }
@@ -1315,12 +1323,12 @@ continue
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
 this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: BrasImg, sourceUrl: accountshb }}}, { quoted: m })         
-//this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
+
 continue //Sin límite
 }
 if (plugin.level > _user.level) {
 this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont9']()} *${plugin.level}* ${lenguajeGB['smsCont10']()} *${_user.level}* ${lenguajeGB['smsCont11']()} *${usedPrefix}nivel*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: BrasImg, sourceUrl: accountshb }}}, { quoted: m })         
-//this.reply(m.chat, `${lenguajeGB['smsCont9']()} *${plugin.level}* ${lenguajeGB['smsCont10']()} *${_user.level}* ${lenguajeGB['smsCont11']()} *${usedPrefix}nivel*`, m)
+
 continue // Si no se ha alcanzado el nivel
 }
 let extra = {
@@ -1384,7 +1392,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
+m.reply(+m.money + ' 𝘾𝙊𝙄𝙉𝙎 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1450,6 +1458,8 @@ if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
 }}
+
+
 
 /**
  * Handle groups participants update
