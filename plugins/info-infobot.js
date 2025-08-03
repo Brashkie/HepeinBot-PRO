@@ -66,56 +66,56 @@ getSystemInfo().then(async (data) => {
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *CREADORA | CREATOR*
 ┃ღ *𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃𓃠 *VERSIÓN ACTUAL | VERSION*
 ┃ღ ${vs}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *PREFIJO | PREFIX*
 ┃ღ *${usedPrefix}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *TOTAL COMANDOS | COMMANDS*
 ┃ღ ${totalf}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
 ┃ღ ${chats.length - groupsIn.length}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *CHATS DE GRUPOS | GROUP CHAT*
 ┃ღ ${groupsIn.length}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *CHATS EN TOTAL | TOTAL CHATS*
 ┃ღ ${chats.length}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *ACTIVIDAD | ACTIVITY* 
 ┃ღ ${uptime}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *VELOCIDAD | SPEED*
  ${latensi.toFixed(4)} ms
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS* 
 ┃ღ ${totalUsers}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *COMANDO EJECUTANDO | COMMAND EXECUTING* 
 ┃ღ ${toNum(totalStats)}/${totalStats}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *GRUPOS REGISTRANDO | REGISTERED GROUPS* 
 ┃ღ ${toNum(totalchats)}/${totalchats}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *USUARIOS REGISTRADO | USERS REGISTRATION* 
 ┃ღ ${rtotalreg} de ${totalreg} users totales
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *AUTOREAD*
 ┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃■□■□■□■□■□■□■□■□■
 ┃➥ *RESTRICT* 
 ┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
 ┃
 ╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣
 `;
 
-await conn.sendFile(m.chat, BrasImg, 'lp.jpg', info, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: BrasImg, sourceUrl: accountsgb }}});
+await conn.sendFile(m.chat, BrasImg, 'lp.jpg', info, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: BrasImg, sourceUrl: accountshb }}});
 });
 }
 handler.help = ['infobot']
