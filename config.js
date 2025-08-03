@@ -13,7 +13,7 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51918340705", '━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 ▣═━', true]]
+["51916360161", '━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 ▣═━', true]]
 
 global.mods = []
 global.prems = []
@@ -92,7 +92,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51918340705", 'HEPEIN 𒁈', 1],]
+["51916360161", 'HEPEIN 𒁈', 1],]
 
 global.mail = '' // Add email
 global.desc = '╭══════⊂(^(工)^)⊃══════╮' // Add short description (20 caractres max)
@@ -100,8 +100,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ ━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 ▣═━\n┃\n┃ 》 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ ND\n┃\n┃ 》 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @moisesyaurivilcacenteno3683\n┃\n┃ 》 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ ND\n╰══════•` 
-global.author = ` ╭ ━═▣ 𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖 ▣═━ ✓\n ┃\n ┃ 𒁈 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ Brashkie\n ┃\n ┃ 𒁈 Mega Bot PRO.\n ┃\n ┃ ⚑ ApoyAlo en\n ┃ 》 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰══════•`
+global.packname = `━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 ▣═━` 
+global.author = `━═▣ 𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖 ▣═━ ✓`
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -138,7 +138,7 @@ global.exito = eg
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗭𝗲𝗶𝘁𝘀𝗶 | 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢"
 global.igfg = "━═▣ 𝗛𝗲𝗽𝗲𝗶𝗻𝗕𝗼𝘁-𝗣𝗥𝗢 ▣═━"
-global.nomorown = "51918340705"
+global.nomorown = "51916360161"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
