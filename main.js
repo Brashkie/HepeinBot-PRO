@@ -23,7 +23,7 @@ import Datastore from '@seald-io/nedb';
 import store from './lib/store.js';
 import readline from 'readline';
 import NodeCache from 'node-cache'; 
-//import { gataJadiBot } from './plugins/jadibot-serbot.js';
+import { BrasJadiBot } from './plugins/jadibot-serbot.js';
 import pkg from 'google-libphonenumber';
 
 
