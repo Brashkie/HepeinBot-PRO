@@ -193,6 +193,10 @@ Si desea ver menu completo pon
 Para ver los comandos de acción
 > #action
 
+ ══《☬ ANIMALS ☬》══
+Para ver los comandos de animales
+> #animals
+
  ══《☬ ANIME ☬》══
 Para ver los comandos de anime o otros
 > #animeb
@@ -217,7 +221,7 @@ Para ver los comandos de diversión
 Para ver los comandos de información
 > #info
 
- ══《☬ MANAGER ☬》══
+ ══《☬ MANAGE ☬》══
 Para ver los comandos de administrador
 > #manager
 
@@ -237,7 +241,7 @@ Para ver los comandos de moderador
 Para ver los comandos de música
 > #music
 
- ══《☬ REACTION ☬》══
+ ══《☬ ROLEPLAY ☬》══
 Para ver los comandos de reacción
 > #reaction
 
@@ -245,9 +249,13 @@ Para ver los comandos de reacción
 Para ver los comandos de utilidad
 > #utility
 
- ══《☬ +18 ☬》══
+ ══《☬ SETTINGS ☬》══
+Para ver los comandos de configuracion
+> #settings
+
+ ══《☬ NSFW ☬》══
 Para ver los comandos de +18
-> #comand+18
+> #NSFW
 
  ══《☬ UTILITY 2 ☬》══
 Para ver los comandos de otros
@@ -260,7 +268,7 @@ await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() 
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(menu|menú|memu|memú|help|2help|commands|commandos)$/i
+handler.command = /^(menu|menú|help|commands|commandos)$/i
 //handler.register = true
 export default handler
 
@@ -271,4 +279,3 @@ let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}  
-
