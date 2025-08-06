@@ -691,6 +691,47 @@ if (chat.audios && m.text.match(/(Onichan|Oniiii|bro|brother|chan|mano|onichan|o
 let vn = 'https://qu.ax/eFhWQ.mp3'
 this.sendPresenceUpdate('recording', m.chat)
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
-   
+
+if (chat.audios && m.text.match(/(hentai|Hentai|H)/gi)){
+let vn = 'https://qu.ax/zJwTs.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(ban|banealo|banear|Banear|Ban|banee)/gi)){
+let vn = 'https://qu.ax/upmYg.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(callate|puto|mal|Callate|Caca|caca|muerete|😒)/gi)){
+let vn = 'https://qu.ax/akVsm.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+
+if (chat.audios && m.text.match(/(porno|nopor|mande|manden|Mande|18|adulto|porn|bras|manda|🥵|🫦)/gi)){
+let vn = 'https://qu.ax/awMEk.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(toma|tomo|ten|Ten|tenido)/gi)){
+let vn = 'https://qu.ax/sgxJH.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(admins|miembro|usuario|aish|grupo|bienvenido|detente|🤖)/gi)){
+let vn = 'https://qu.ax/VLFZe.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(adminis|miembros|usuarios|loco|voy|delicioso|rico|riko|👀|💋)/gi)){
+let vn = 'https://qu.ax/KKajx.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
+if (chat.audios && m.text.match(/(techo|dormir|mimir|sueño|Sueño|mime|cama|sofa|noche|🥱)/gi)){
+let vn = 'https://qu.ax/zhGYe.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m})}
+
 return !0 }
 export default handler
